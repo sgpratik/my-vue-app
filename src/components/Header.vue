@@ -8,11 +8,13 @@
     <p> </p>
     <h4>To generate a random quote, please click the below button.</h4>
     <Button />
+    <Quote />
   </div>
 </template>
 
 <script>
 import Button from './Button.vue'
+import Quote from './Quote.vue'
 
 export default {
   name: 'Header',
@@ -20,7 +22,8 @@ export default {
     msg: String
   },
   components: {
-    Button
+    Button,
+    Quote
   }
 }
 </script>

@@ -36,7 +36,7 @@ export default {
   border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 12px;
   font-family: inherit;
 }
 </style>
