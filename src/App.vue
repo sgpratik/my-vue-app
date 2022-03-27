@@ -2,17 +2,21 @@
 <header>
   <img alt="Vue logo" src="./assets/main_gif.gif" height="220">
   <Header msg="Welcome to My First Vue App"/>
+  <h1> </h1>
 </header>
 </template>
 
 <script>
+import Navbar from './components/Navbar.vue'
 import Header from './components/Header.vue'
+
 
 export default {
   name: 'App',
   components: {
     Header,
-  }
+    Navbar
+	}
 }
 </script>
 
